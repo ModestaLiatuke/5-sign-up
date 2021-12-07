@@ -22,9 +22,28 @@ body {
      float:left;
      padding: 40px;
      background-color: #494eac;
+     color: white;
+ }
+.main-title {
+     display: inline-block;
+     font-size: 32px;
+     font-weight: normal;
+     background-color: yellow;
+ }
+.bottom-links {
+     display: inline-block;
+     background-color: yellow;
  }
 
- .right-column {
+.bottom-links > .link {
+    color: white;
+    font-size: 14px;
+}
+
+.bottom-links > .symbol {
+
+}
+.right-column {
      width: 60%;
      float: left;
      padding: 60px;
