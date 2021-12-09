@@ -6,43 +6,46 @@ body * {
     vertical-align: top;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 body {
     background-color: #00afcc;
 }
 .container {
-     display: inline-block;
-     width: 800px;
-     margin-top: 60px;
-     margin-left: calc(50% - 400px);
- }
+    display: inline-block;
+    width: 800px;
+    margin-top: 60px;
+    margin-left: calc(50% - 400px);
+    position: relative;
+}
 
  .left-column {
-     width: 40%;
-     float:left;
-     padding: 40px;
-     margin-top: 20px;
-     background-color: #494eac;
-     color: white;
-     background-image: url(../img/hill.png);
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
+    width: 40%;
+    float:right;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: #494eac;
+    color: white;
+    background-image: url(../img/hill.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
 
-     height: 450px;
-
-
- }
-.main-title {
-     display: inline-block;
-     font-size: 32px;
-     font-weight: normal;
     
- }
+}
+.main-title {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: normal;
+}
 .bottom-links {
-     display: inline-block;
-     
- }
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    right: 40px;
+}
 
 .bottom-links > .link {
     color: white;
@@ -53,11 +56,11 @@ body {
 
 }
 .right-column {
-     width: 60%;
-     float: left;
-     padding: 60px;
-     background-color:white;
-     position: relative;
+    width: 60%;
+    float: right;
+    padding: 60px;
+    background-color:white;
+    position: relative;
  }
 .close {
     width: 60px;
