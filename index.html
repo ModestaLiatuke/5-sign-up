@@ -13,8 +13,9 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="shortcut icon" href="./Favicon.ico" type="image/x-icon">
 <!-- components -->
+    <link rel="stylesheet" href="./css/button.css"> 
     <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/button.css">
+    
 
 <!-- custom styles -->
     <link rel="stylesheet" href="./css/main.css">
@@ -39,25 +40,25 @@
             <div class="close">X</div>
             <form class="form">
                 <div class="form-row">
-                    <label for="#">User name</label>
-                    <input type="text" placeholder="Your text...">
+                    <label for="username">Username</label>
+                    <input id="username" type="text" placeholder="Your username..." required> 
                 </div>
                 <div class="form-row">
-                    <label for="#">Email</label>
-                    <input type="email" placeholder="Your text...">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="Your email..." required>
                 </div>
                 <div class="form-row">
-                    <label for="#">Password</label>
-                    <input type="password" placeholder="Your text...">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Password..." required>
                 </div>
                 <div class="form-row">
-                    <label for="#">Repeat Password</label>
-                    <input type="password" placeholder="Your text...">
+                    <label for="re-password">Repeat Password</label>
+                    <input id="re-password" type="password" placeholder="Repeat Password..." required>
                 </div>
                 <div class="form-row">
-                    <div class="btn">click me</div>
-                    <input class="btn" type="submit" value="Register now">
-                    
+                    <button class="btn">Register now</button>
+                    <span>or</span>
+                    <a href="#">Sing in</a>
                 </div>
             </form>
         </div>
