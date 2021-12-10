@@ -1,26 +1,19 @@
-![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
-![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)
-![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
-![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
+## Sing up
+32 group website project
 
-# Sign up
+This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-_32 group website project_
+Site published at: https://modestaliatuke.github.io/5-sign-up/
 
-This project is for **educational** porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
-
-Site published at: https://front-end-by-rimantas.github.io/32-grupe-sign-up/
-
-Design: [Sign up](https://cdn.discordapp.com/attachments/850245533838868480/850246368214908970/day1dr.png)
+Design: [Sing up] https://cdn.discordapp.com/attachments/850245533838868480/850246368214908970/day1dr.png
 
 ## Project features
+- Github pages (multi-page)
+- HTML form
+- CSS  position absolute
+- CSS blur effect
+- background image
 
--   Github pages (multi-page)
--   HTML form
--   CSS background images
--   CSS position absolute
--   CSS blur effect
 
 ## Authors
-
-Rimantas: [Github](https://github.com/belauzas)
+Modesta [Github] (https://github.com/ModestaLiatuke)
